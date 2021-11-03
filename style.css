@@ -1,29 +1,79 @@
 body{
     font-size: 15px;
+    display: flex;
+    margin-top: 7.8%;
+    margin-left: 140px;
+    /*margin-right: 200px;*/
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.MainDiv{
+div{
     background-color: hsl(31, 77%, 52%);
-    max-width: 13%;
-    height: 300px;
-    padding: 35px;
+    width: 273px;
+    height: 500px;
+    padding: 49px;
     border-radius: 6px 0px 0px 6px;
 }
 
 h1{
     font-size: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 43px;
 }
 
 p{
-    margin-bottom: 50%;
+    margin-bottom: 60%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    line-height: 28px;
 }
 
 a{
     background-color: white;
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 20px;
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
     text-decoration: none;
     color: hsl(31, 77%, 52%);
+    font-size: 18px;
+}
+
+img{
+    width: 70px;
+}
+
+.MainDiv2{
+    border-radius: 0px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.MainDiv2 a{
+    color: hsl(184, 100%, 22%);
+}
+
+.MainDiv3{
+    border-radius: 0px 6px 6px 0px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 47px;
+    width: 275px;
+    height: 504px;
+}
+
+.MainDiv3 a{
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1338px) {
+    body{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 100px;
+    }
+
+    div{
+        width: 300px;
+    }
 }
