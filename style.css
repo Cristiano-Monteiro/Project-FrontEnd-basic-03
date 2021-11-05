@@ -1,18 +1,22 @@
 body{
     font-size: 15px;
-    display: flex;
-    margin-top: 7.8%;
-    margin-left: 140px;
-    /*margin-right: 200px;*/
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Lexend Deca', sans-serif;
 }
 
+main{
+    display: flex;
+    margin-left: 185px;
+    margin-right: 175px;
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
 div{
     background-color: hsl(31, 77%, 52%);
-    width: 273px;
-    height: 500px;
+    width: 243px;
+    height: 450px;
     padding: 49px;
     border-radius: 6px 0px 0px 6px;
 }
@@ -24,9 +28,9 @@ h1{
 }
 
 p{
-    margin-bottom: 60%;
+    margin-bottom: 100px;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 18px;
+    font-size: 16.5px;
     line-height: 28px;
 }
 
@@ -57,23 +61,72 @@ img{
 .MainDiv3{
     border-radius: 0px 6px 6px 0px;
     background-color: hsl(179, 100%, 13%);
-    padding: 47px;
-    width: 275px;
-    height: 504px;
 }
 
 .MainDiv3 a{
     color: hsl(179, 100%, 13%);
 }
 
-@media screen and (min-width: 1338px) {
-    body{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 100px;
+@media screen and (max-width: 1240px) {
+    main{
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 115px;
     }
 
     div{
-        width: 300px;
+        width: 543px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    main{
+        margin-bottom: 115px
+    }
+
+    div{
+        width: 543px;
+        height: 650px;
+    }
+
+    p{
+        margin-bottom: 270px;
+    }
+
+    a{
+        padding: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 18px;
+    }
+
+    .MainDiv2 p{
+        margin-bottom: 245px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        display: block;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+
+    div{
+        width: 223px;
+        height: 390px;
+        padding: 49px;
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    p{
+        margin-bottom: 50px;
+    }
+
+    .MainDiv2 p{
+        margin-bottom: 50px;
     }
 }
