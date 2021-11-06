@@ -14,7 +14,6 @@ main{
 }
 
 div{
-    background-color: hsl(31, 77%, 52%);
     width: 243px;
     height: 450px;
     padding: 49px;
@@ -37,16 +36,29 @@ p{
 a{
     background-color: white;
     padding: 20px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 30px;
     text-decoration: none;
-    color: hsl(31, 77%, 52%);
     font-size: 18px;
 }
 
 img{
     width: 70px;
+}
+
+.MainDiv1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.MainDiv1 a{
+    color: hsl(31, 77%, 52%);
+}
+
+.MainDiv1 a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid;
 }
 
 .MainDiv2{
@@ -58,6 +70,12 @@ img{
     color: hsl(184, 100%, 22%);
 }
 
+.MainDiv2 a:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid;
+}
+
 .MainDiv3{
     border-radius: 0px 6px 6px 0px;
     background-color: hsl(179, 100%, 13%);
@@ -67,42 +85,71 @@ img{
     color: hsl(179, 100%, 13%);
 }
 
-@media screen and (max-width: 1240px) {
-    main{
-        display: flex;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 115px;
-    }
-
-    div{
-        width: 543px;
-    }
+.MainDiv3 a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1024px) {
     main{
-        margin-bottom: 115px
+        display: flex;
+        margin-left: 185px;
+        margin-right: 175px;
+        margin-top: 115px;
+        margin-bottom: 115px;
     }
 
     div{
-        width: 543px;
-        height: 650px;
+        width: 243px;
+        height: 550px;
     }
 
     p{
-        margin-bottom: 270px;
+        margin-bottom: 50px;
     }
 
     a{
-        padding: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 18px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        margin-left: 83px;
+        margin-right: 83px;
+    }
+
+    div{
+        height: 590px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    main{
+        display: block;
+        margin-left: 46px;
+        margin-right: 46px;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+
+    div{
+        width: 223px;
+        height: 390px;
+        padding: 49px;
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    p{
+        margin-bottom: 50px;
     }
 
     .MainDiv2 p{
-        margin-bottom: 245px;
+        margin-bottom: 50px;
     }
 }
 
@@ -118,6 +165,31 @@ img{
     div{
         width: 223px;
         height: 390px;
+        padding: 49px;
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    p{
+        margin-bottom: 50px;
+    }
+
+    .MainDiv2 p{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main{
+        display: block;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+
+    div{
+        width: 170px;
+        height: 400px;
         padding: 49px;
         border-radius: 6px 0px 0px 6px;
     }
