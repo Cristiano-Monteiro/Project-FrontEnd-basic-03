@@ -91,7 +91,7 @@ img{
     border: 2px solid;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1209px) {
     main{
         display: flex;
         margin-left: 185px;
@@ -117,7 +117,17 @@ img{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1114px) {
+    p{
+        margin-bottom: 25px;
+    }
+
+    a{
+
+    }
+}
+
+@media screen and (max-width: 985px) {
     main{
         margin-left: 83px;
         margin-right: 83px;
