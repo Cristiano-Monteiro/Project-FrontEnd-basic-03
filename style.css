@@ -121,10 +121,6 @@ img{
     p{
         margin-bottom: 25px;
     }
-
-    a{
-
-    }
 }
 
 @media screen and (max-width: 985px) {
@@ -136,6 +132,40 @@ img{
     div{
         height: 590px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        display: block;
+        margin-left: 96px;
+        margin-right: 96px;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+
+    div{
+        width: 443px;
+        max-width: 75%;
+        height: 390px;
+        padding: 49px;
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    p{
+        margin-bottom: 50px;
+    }
+
+    .MainDiv1{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .MainDiv3{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .MainDiv2 p{
+        margin-bottom: 50px;
+    }  
 }
 
 @media screen and (max-width: 425px) {
