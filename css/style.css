@@ -1,54 +1,54 @@
 body{
+    margin: 0%;
+    height: 100vh;
     font-size: 15px;
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
     display: flex;
-    margin-left: 185px;
-    margin-right: 175px;
-    margin-top: 115px;
-    margin-bottom: 115px;
+    width: 100%;
+    max-width: 78%;
+    height: auto;
 }
 
 div{
-    width: 243px;
-    height: 450px;
     padding: 49px;
-    border-radius: 6px 0px 0px 6px;
 }
 
-h1{
-    font-size: 20px;
+div h1{
+    font-size: 3.5vw;
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 43px;
 }
 
-p{
+div p{
     margin-bottom: 100px;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 16.5px;
+    font-size: 16px;
     line-height: 28px;
 }
 
-a{
+div a{
     background-color: white;
-    padding: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 20px 2vmax;
     border-radius: 30px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
-img{
+div img{
     width: 70px;
 }
 
 .MainDiv1{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 0px 0px 6px;
 }
 
 .MainDiv1 a{
@@ -90,6 +90,14 @@ img{
     color: white;
     border: 2px solid;
 }
+
+@media screen and (max-width: 740px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+/*
 
 @media screen and (max-width: 1209px) {
     main{
