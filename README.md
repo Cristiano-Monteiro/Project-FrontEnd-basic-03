@@ -1,6 +1,6 @@
 <div>
-    <img src="https://user-images.githubusercontent.com/91402144/148462626-905f5f22-6787-4dde-aa57-4d0463c2cf4f.png" width="570px">
-    <img src="https://user-images.githubusercontent.com/91402144/159145011-30f044d0-a219-4556-8a1d-dad662936a19.png" width="100px">
+    <img src="https://user-images.githubusercontent.com/91402144/159146788-159eb3c9-645e-446a-b53b-fd1e1556e2ea.png" width="570px">
+    <img src="https://user-images.githubusercontent.com/91402144/159146797-568e1f0f-0d25-4834-afd7-e80b63bfc712.png" width="105px">
 </div>
 
 # Frontend Mentor - 3-column preview card component solution
